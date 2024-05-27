@@ -1,0 +1,15 @@
+redisvl
+langchain
+langchain-community
+# https://python.langchain.com/docs/integrations/chat/bedrock/
+#langchain-aws
+boto3
+tiktoken
+redis==4.5.3
+python-dotenv==0.21.0
+streamlit==1.24.1
+streamlit-chat
+## very heavy deps but required by redisvl SemanticCache
+sentence-transformers
+altair==4.0
+pypdf
